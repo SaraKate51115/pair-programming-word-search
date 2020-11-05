@@ -1,3 +1,4 @@
+//PAIR-PROGRAMMING: COMPLETED WITH Pavel Piatetskii 
 const wordSearch = (letters, word) => {
     if (letters.length === 0) return false;
     const transposed = transpose(letters);  
